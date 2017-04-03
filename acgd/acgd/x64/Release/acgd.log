@@ -1,0 +1,3 @@
+﻿  Source1.cpp
+Source1.cpp(33): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+Source1.cpp(34): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
