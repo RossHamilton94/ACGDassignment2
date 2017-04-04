@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C5A89ECB-4B97-113B-5DD5-96E63AFF52D7}</ProjectGuid>
+    <ProjectGuid>{D3EA18A5-9F24-3D89-D9A9-C5BBDF6567D7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -45,8 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\OpenCVFaceDetection.cs" />
-     <Compile Include="Assets\Scripts\PositionAtFaceScreenSpace.cs" />
+     <Compile Include="Assets\Scripts\OpenCVColourDetection.cs" />
      <None Include="Assets\haarcascade_frontalface_alt.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

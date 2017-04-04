@@ -1,3 +1,14 @@
 ﻿  Source1.cpp
-Source1.cpp(33): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-Source1.cpp(34): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     Creating library C:\Users\Ross\Documents\ACGDassignment2\acgd\x64\Release\acgd.lib and object C:\Users\Ross\Documents\ACGDassignment2\acgd\x64\Release\acgd.exp
+Source1.obj : error LNK2001: unresolved external symbol "public: virtual double __cdecl cv::VideoCapture::get(int)const " (?get@VideoCapture@cv@@UEBANH@Z)
+Source1.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl cv::VideoCapture::retrieve(class cv::_OutputArray const &,int)" (?retrieve@VideoCapture@cv@@UEAA_NAEBV_OutputArray@2@H@Z)
+Source1.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl cv::VideoCapture::release(void)" (?release@VideoCapture@cv@@UEAAXXZ)
+Source1.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl cv::VideoCapture::isOpened(void)const " (?isOpened@VideoCapture@cv@@UEBA_NXZ)
+Source1.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl cv::VideoCapture::open(int)" (?open@VideoCapture@cv@@UEAA_NH@Z)
+Source1.obj : error LNK2001: unresolved external symbol "public: virtual __cdecl cv::VideoCapture::~VideoCapture(void)" (??1VideoCapture@cv@@UEAA@XZ)
+Source1.obj : error LNK2001: unresolved external symbol "public: __cdecl cv::VideoCapture::VideoCapture(void)" (??0VideoCapture@cv@@QEAA@XZ)
+Source1.obj : error LNK2001: unresolved external symbol "public: void __cdecl cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QEAAXXZ)
+Source1.obj : error LNK2001: unresolved external symbol "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPEAX@Z)
+Source1.obj : error LNK2001: unresolved external symbol "private: void __cdecl cv::String::deallocate(void)" (?deallocate@String@cv@@AEAAXXZ)
+Source1.obj : error LNK2001: unresolved external symbol "void __cdecl cv::inRange(class cv::_InputArray const &,class cv::_InputArray const &,class cv::_InputArray const &,class cv::_OutputArray const &)" (?inRange@cv@@YAXAEBV_InputArray@1@00AEBV_OutputArray@1@@Z)
+C:\Users\Ross\Documents\ACGDassignment2\acgd\x64\Release\acgd.dll : fatal error LNK1120: 11 unresolved externals
