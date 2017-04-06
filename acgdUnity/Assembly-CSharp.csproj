@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\OpenCVColourDetection.cs" />
+     <Compile Include="Assets\Scripts\WebcamTexture.cs" />
      <None Include="Assets\haarcascade_frontalface_alt.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
